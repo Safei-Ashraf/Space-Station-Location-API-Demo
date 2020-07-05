@@ -1,0 +1,45 @@
+body {
+	width: 99vw;
+	text-align: center;
+	background-image: url('/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+	color: cornsilk;
+	overflow-x: hidden;
+}
+div.container {
+	height: 50%;
+}
+div.gen {
+	border: 5px outset pink;
+	width: 60%;
+	margin: auto auto;
+	border-radius: 10%;
+	margin-bottom: 2%;
+}
+div {
+	margin: auto auto;
+}
+h2 {
+	border: 2px inset white;
+	border-radius: 10px;
+	background-color: rgb(212, 158, 212);
+	width: 90%;
+	margin: auto auto;
+	margin-top: 3%;
+}
+p {
+	font-weight: bold;
+	padding: 10px;
+	background-color: skyblue;
+}
+p > span {
+	color: blue;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#iss-map {
+	min-height: 180px;
+	height: 14rem;
+}
